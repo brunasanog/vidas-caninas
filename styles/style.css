@@ -37,6 +37,11 @@ html {
     scrollbar-width: none;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -70,6 +75,27 @@ html {
     margin-bottom: 0.2rem;
     color: var(--secondary-color);
 }
+
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.carousel img {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.carousel img.active {
+    opacity: 1;
+}
+
+
 
 .main_block_banner {
     width: 100vw;
@@ -105,8 +131,11 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-size: 0.9rem;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     width: 100%;
     height: 100px;
+    gap: 0.5rem;
 }
