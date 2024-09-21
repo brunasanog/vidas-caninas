@@ -26,6 +26,15 @@ body {
     padding: 0;
     width: 100vw;
     overflow-x: hidden;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
 }
 
 .header {
