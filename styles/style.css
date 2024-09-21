@@ -76,6 +76,14 @@ html {
     color: var(--secondary-color);
 }
 
+.header_menu_link:hover {
+    color: var(--accent-color)
+}
+
+.header_menu_link.active {
+    color: var(--accent-color);
+}
+
 
 
 .carousel {
