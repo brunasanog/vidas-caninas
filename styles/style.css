@@ -122,6 +122,14 @@ html {
     width: 100%;
 }
 
+#pages_block {
+    max-width: 1000px;
+}
+
+.main_block_list {
+   padding-left: 20px;
+}
+
 .main_block_content {
     display: flex;
     justify-content: center;
@@ -143,6 +151,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 1rem;
 }
 
 .cuidados_images img {
@@ -155,11 +164,28 @@ html {
 .cuidados_images_item {
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .cuidados_images_item:hover img{
     filter: grayscale(0%);
 }
+
+.cuidados_images_block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cuidados_images_text {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+
 
 .footer {
     display: flex;
@@ -173,4 +199,6 @@ html {
     height: 100px;
     gap: 0.5rem;
 }
+
+
 
