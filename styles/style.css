@@ -306,10 +306,36 @@ body {
     flex-direction: column;
 }
 
+.main_block_content_title {
+    font-size: 1.8rem;
+}
+
+.main_block_content_text {
+    font-size: 1.4rem;
+    text-align:justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
 
 
 .carousel  {
 height: 10vh;
+}
+
+.cuidados_images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cuidados_images img {
+    width: 70%;
+    filter: grayscale(0%);
+    opacity: 80%;
+    transition: filter 0.5 ease;
 }
 
 
