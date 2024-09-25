@@ -280,7 +280,7 @@ body {
 .header_logo {
     padding: 0px;
     justify-content: center;
-    width: 40%;
+    width: 35%;
 }
 
 .header_menu_link.active {
@@ -299,7 +299,7 @@ body {
 
 .main_block {
     flex-direction: column;
-    width: 85%;
+    width: 95%;
 }
 
 .main_block_content {
@@ -307,11 +307,11 @@ body {
 }
 
 .main_block_content_title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .main_block_content_text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align:start;
     overflow-wrap: break-word;
     word-wrap: break-word;
