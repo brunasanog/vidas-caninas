@@ -201,6 +201,7 @@ body {
 
 
 .footer {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +306,10 @@ body {
     flex-direction: column;
 }
 
-   
+
+
+.carousel  {
+height: 10vh;
 }
 
 
