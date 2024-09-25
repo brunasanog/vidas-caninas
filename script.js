@@ -10,3 +10,8 @@ function showNextImage() {
 images[currentIndex].classList.add('active');
 
 setInterval(showNextImage, 5000);
+
+
+document.querySelector('.header_menu_image').addEventListener('click', function() {
+    document.querySelector('.header_menu').classList.toggle('active');
+});

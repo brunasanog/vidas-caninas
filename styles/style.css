@@ -40,7 +40,9 @@ html {
     scrollbar-width: none;
 }
 
-
+body {
+    width: 100%;
+}
 
 .header {
     display: flex;
@@ -49,6 +51,10 @@ html {
     width: 100%;
     padding: 0% 0% 0% 0%; 
     background-color: var(--primary-color);
+}
+
+.header_menu_image {
+    display: none;
 }
 
 .header_logo {
@@ -88,12 +94,19 @@ html {
     text-underline-offset: 8px;
 }
 
+#pages_button_link {
+    text-decoration: none;  
+    font-size: 0.9rem;
+    color: #555;
+}
+
 
 
 .carousel {
     position: relative;
     width: 100%;
     height: 50vh;
+    overflow: hidden;
 }
 
 .carousel img {
@@ -202,3 +215,100 @@ html {
 
 
 
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+* {
+        box-sizing: border-box;
+        
+    }
+
+.header {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.header_menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    z-index: 1000;
+}
+
+
+.header_menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    gap: 5rem;
+    padding: 2rem;
+        
+}
+
+.header_menu_link {
+    font-size: 1.8rem;
+}
+
+.header_menu_link.active {
+    color: var(--accent-color);
+        text-decoration: none !important;
+
+}
+
+.header_menu_image {
+    display: flex;
+    width: 7%;
+}
+
+.header_logo {
+    padding: 0px;
+    justify-content: center;
+    width: 25%;
+}
+
+.header_menu_link.active {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--accent-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    text-underline-offset: 3px;
+}
+
+#pages_button_link {
+    font-size: 1.5rem;
+}
+
+.main_block {
+    flex-direction: column;
+    width: 90%;
+}
+
+.main_block_content {
+    flex-direction: column;
+}
+
+   
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
