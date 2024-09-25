@@ -300,10 +300,15 @@ body {
 .main_block {
     flex-direction: column;
     width: 95%;
+    gap:0px;
+    margin-bottom: 0;
+
 }
 
 .main_block_content {
     flex-direction: column;
+    gap: 1.6rem;
+
 }
 
 .main_block_content_title {
