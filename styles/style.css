@@ -461,9 +461,6 @@ height: 10vh;
     .main_block_content_text {
         font-size: 2.2rem;
         text-align: start;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        hyphens: auto;
     }
 
     .carousel {
