@@ -102,8 +102,9 @@ html {
 .carousel {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 36vh;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .carousel img {
@@ -374,7 +375,7 @@ height: 10vh;
 
 
 /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1250px) {
 
     * {
         box-sizing: border-box;
@@ -455,11 +456,11 @@ height: 10vh;
     }
 
     .main_block_content_title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .main_block_content_text {
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-align: start;
     }
 
